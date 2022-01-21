@@ -10,7 +10,7 @@ En este ejercicio realice la tabla clients, colors, invoices, invoiceLines, coun
 Tiempo estimado: 30-40min
 
 
-##Ejercicio 2
+## Ejercicio 2
 ### Ejercicio 2.1
 Realicé las clases de:
 - Clients con las variables de ClientID, ClientName, address1, address2, town, county, postcode, region, outerPostode, clientType, clientSize, clientSince, isCreditWorthy, isDealer, agregando la relación por medio de una variable self.countryID, debido a que Python es un lenguaje interpretado, cuando se le asigne el valor a esa variable va a ser del objeto Country().
