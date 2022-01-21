@@ -27,3 +27,12 @@ MonthAndYear, MonthName, MonthNameAbbr, QuarterAndYear, QuarterAndYearAbbr2, Yea
 ###  Ejercicio 2.2
 Realicé la clase padre ContenedoraTipoVehiculo, en la que añadí la variable de listaTipoVehiculo que va a ser una lista de strings, la cual permite agregar nuevos tipos de vehículos, además, agregué los métodos de add, remove y update.
 Tiempo estimado: 2h
+
+
+## Ejercicio 3:
+Intenté investigar en pandas pero realmente los resultados obtenidos no eran los deseados y por lo que decidí hacer las consultas en Oracle sql developer.
+### Ejercicio 3.1:
+Para poder hacer este ejercicio seleccione primero la marca, luego utilicé el count para que me hiciera la cuenta del total de las casillas de las marcas de los productos, luego hice el join para relacionarla con invoiceLines ya que, la línea de la factura debe llevar el identificador de cada producto, seguidamente realicé otro join para relacionarla con Invoices ya que, cada factura debe llevar la línea de factura. Por consiguiente, utilicé el where para poder decir de donde a donde quería buscar los registros de las marcas, con lo cual el regexp_like me permitió hacer la búsqueda del año que empezará por el 2015 y los meses del primer y tercer trimestre, agrupándolos por la marca del vehículo.
+### Ejercicio 3.2: 
+Para poder hacer este ejercicio seleccione primero el color, luego utilicé el count para que me hiciera la cuenta del total de las casillas de los colores de los productos, luego hice el join para relacionarla con el StockID ya que, cada producto lleva un color, seguidamente realicé otro join para relacionarla con InvoiceLines ya que, cada línea de factura debe llevar el identificador de cada producto, por último, realicé otro join para relacionar con Invoices ya que, cada factura debe de llevar la línea de factura. Por consiguiente, utilicé el where para poder decir de donde a donde quería buscar los registros de las marcas, con lo cual el not like me permitió hacer la búsqueda para poder decirle que buscará en todos los años menos en los que empezarán por el 2015, ya que según los registros no hay del 2015, agrupándolos por el color del vehículo.
+Tiempo estimado: 1h
