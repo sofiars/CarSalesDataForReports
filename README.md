@@ -23,3 +23,7 @@ Con los métodos printClients(self) que imprime los datos de los clientes y prin
 MonthAndYear, MonthName, MonthNameAbbr, QuarterAndYear, QuarterAndYearAbbr2, YearAndMonthNum y el método printDate(self) que imprime todas las fechas. Finalmente, los get y set de cada atributo de la clase DateDimension.
 - Stock con la variable listaAutos que recibe un Vehicle() con los datos del vehículo, con los métodos printStock(self), addStock(self) que añade nuevos vehículos a la lista y removeStock(self, id) que elimina el producto que yo le mandé por parámetros.
 - Utilicé clases Contenedoras de Invoices, Client haciendo referencia al principio de responsabilidad única, en la cual agregué los métodos de add(), remove (id) para eliminar la factura por medio del id y update (id) añadiendo funcionalidad con listas.
+
+###  Ejercicio 2.2
+Realicé la clase padre ContenedoraTipoVehiculo, en la que añadí la variable de listaTipoVehiculo que va a ser una lista de strings, la cual permite agregar nuevos tipos de vehículos, además, agregué los métodos de add, remove y update.
+Tiempo estimado: 2h
